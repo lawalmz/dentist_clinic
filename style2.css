@@ -1,0 +1,111 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  background-color: #7d9270;
+  align-items: center;
+}
+form {
+background-color: #D0C9C0;
+margin-right: 350px;
+margin-left: 350px;
+
+align-items: center;
+
+}
+
+input[type=email],input[type=text],input[type=text],input[type=text]{
+width: 93%;
+padding: 15px;
+margin: 5px 0 22px 0px;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+input[type=email]:focus, input[type=text]:focus,input[type=text]:focus,input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.container {
+  padding: 16px;
+}
+button {
+  background-color: #6F9A8D;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 50px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.9;
+}
+.cancelbtn{
+  padding: 14px 20px;
+  background-color: #3D0E1E;
+}
+.h1{
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.b{
+  margin-left: 350px;
+  margin-right: 350px;
+}
+.Receptionist{
+  background-color: gray;
+}
+.Dentist{
+  background-color: gray;
+}
+.Nurse{
+  background-color: gray;
+}
+.header{
+  margin-left: 290px;
+   margin-right: auto;
+   width: 180px;
+}
+.header_R{
+  margin-left: 250px;
+  margin-right: 350px;
+}
+img {
+
+ max-width: 100px;
+ max-height: 100px;
+
+}
+.pic {
+
+ height: 100px;
+ width: 100px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gray;
+  color: white;
+}
+.t{
+  background-color: #D0C9C0;
+  margin-right: 200px;
+  margin-left:  200px;
+  margin-top: 90px;
+}
